@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      type="text/javascript"
+      src="https://cdn.scaledrone.com/scaledrone.min.js"
+    ></script>
+    <!--<script type='text/javascript' src='http://0.0.0.0:8080/scaledrone.js'></script>-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="chat_app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shatalks - Chat</title>
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="members"></div>
+    <div class="messages"></div>
+
+    <form class="msgForm" onsubmit=" return false">
+      <input
+        type="text"
+        class="msgFormInput"
+        placeholder="Type a message..."
+        id="input-field"
+        maxlength="500"
+      />
+      <button class="button-1" role="button">Send</button>
+    </form>
+
+    <script src="chat_app.js"></script>
+  </body>
+</html>
